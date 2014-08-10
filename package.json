@@ -1,0 +1,25 @@
+{
+  "name": "try-typescript",
+  "version": "0.0.0",
+  "description": "",
+  "main": "greeter.js",
+  "dependencies": {
+    "typescript": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch-compile-run": "nodemon -w . -e ts -x 'npm run-script compile-run'",
+    "compile-run": "tsc greeter.ts && node greeter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undoZen/try-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/undoZen/try-typescript/issues"
+  },
+  "homepage": "https://github.com/undoZen/try-typescript"
+}
